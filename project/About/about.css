@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(248, 245, 240);
+}
+div{
+    text-align: center;
+}
+#d1,#d2,#d3{
+    background-color: rgb(248, 184, 66);
+    border-radius: 10px;
+    width: 35%;
+    margin: 1% 0 2% 5%;
+    padding: 2%;
+    font-size: 120%;
+    display: inline-block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#d2,#d3{
+    display: inline-block;
+}
+body{
+    margin: 0;
+    background-color: rgb(248, 245, 240);
+}
+.navbar{
+    background-color: #e6e6e6;
+    display: flex;
+    font-weight: bold;
+    font-size: 120%;
+}
+.navbar #navLogo{
+    width: 160px;
+    height: 80px ;
+    padding: 5px;
+    padding: 0 700px 0 40px;
+}
+.navbar ul{
+    list-style-type: none ;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar li a{
+    text-decoration: none;
+    color: crimson;
+    padding: 60px 15px 15px 25px;
+    font-size: 120%;
+}
+.navbar li a:hover{
+    color: rgb(250, 102, 4);
+    border: rgb(250, 102, 4) solid;
+    border-radius: 10%;
+}
